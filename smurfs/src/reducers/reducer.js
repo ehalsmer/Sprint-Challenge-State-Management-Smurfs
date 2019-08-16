@@ -24,7 +24,8 @@ export const reducer = (state = initialState, action) => {
     case "POST_SUCCESS":
         return {
             ...state,
-            isLoading: false
+            isLoading: false,
+            smurfs: action.payload
         }
     default:
       return state;
