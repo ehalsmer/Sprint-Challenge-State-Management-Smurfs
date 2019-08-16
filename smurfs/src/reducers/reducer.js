@@ -1,6 +1,36 @@
 const initialState = {
     isLoading: false,
-    smurfs: []
+    smurfs: [  {
+        name: 'Brainey',
+        age: 200,
+        height: '5cm',
+        id: 0
+      },  {
+        name: 'Brainey',
+        age: 200,
+        height: '5cm',
+        id: 0
+      },  {
+        name: 'Brainey',
+        age: 200,
+        height: '5cm',
+        id: 0
+      },  {
+        name: 'Brainey',
+        age: 200,
+        height: '5cm',
+        id: 0
+      },  {
+        name: 'Brainey',
+        age: 200,
+        height: '5cm',
+        id: 0
+      },  {
+        name: 'Brainey',
+        age: 200,
+        height: '5cm',
+        id: 0
+      }]
 }
 
 export const reducer = (state = initialState, action) => {
