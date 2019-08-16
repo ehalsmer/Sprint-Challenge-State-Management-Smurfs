@@ -37,3 +37,10 @@ button {
   width: 12rem;
   margin: 20px 10px;
 }
+.deleteIcon {
+  float: right;
+  cursor: pointer;
+}
+.deleteIcon:hover {
+  transform: scale(1.2,1.2);
+}
